@@ -1,8 +1,8 @@
 # Insolation_imposing_thresholds
 
-We provide Python code for generating dynamic visualizations of insolation series (using the 65°N Laskar 2004 solution spanning the past 10 million years) across threshold continua, along with simulated rank and couplet time series and their cross-spectral coherence and phase at 405-kyr periodicities.
+We provide Python code for generating dynamic visualizations of insolation series (using the 65°N Laskar 2004 solution for the past 10 million years) across threshold continua, along with simulated rank and couplet time series and their cross-spectral coherence and phase at 405-kyr periodicities.
 
-We use "Input_insolation_time_series.csv" as the only input data source for generating the rank and couplet time series.
+We use the "Input_insolation_time_series.csv" as the only input data source for generating the rank and couplet time series.
 
 We employ the "calculating_insolation_to_rank_couplet" Python package to simulate rank and couplet time series for each threshold model. This package calculates key model parameters including: the proportion of rank 1 states in the rank time series, the average couplet duration, the cross-spectral coherence and phase relationships between rank and couplet series at 405-kyr periodicities.
 
